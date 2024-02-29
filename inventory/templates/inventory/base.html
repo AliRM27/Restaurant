@@ -10,6 +10,14 @@
         <link rel="stylesheet" href="{% static "inventory/style.css" %}">
     </head>
     <body>
+        <nav>
+            <ul>
+                <li></li>
+                <li><a>Purchase</a></li>
+                <li><a>Sign up</a></li>
+                <li><a>Login</a></li>
+            </ul>
+        </nav>
         {% block content %}
         <h1>Hello World</h1>
         <a href="{% url "next" %}" class="btn">Button</a>
