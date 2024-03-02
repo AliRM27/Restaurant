@@ -1,5 +1,5 @@
 *{
-    margin:50;
+    margin:0;
 }
 
 a{
@@ -7,14 +7,6 @@ a{
 
 }
 
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkgray;
-    height: 100px;
-}
 ul{
     display: flex;
     justify-content: flex-end;
@@ -41,8 +33,4 @@ li{
     color: black;
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-.containerS{
-    background-color: red;
-    display: flex;
 }
