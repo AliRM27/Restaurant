@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin:50;
 }
 
 a{
@@ -41,4 +41,8 @@ li{
     color: black;
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.containerS{
+    background-color: red;
+    display: flex;
 }
