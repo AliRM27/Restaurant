@@ -3,7 +3,18 @@
 {% block title %}Sign up{% endblock title %}
 {% block content %}
 <div class='containerS'>
-    
+    <div class='containerIn'>
+    <h1>Sign Up</h1>
+    <form method='post' activate='' id='formSign'>
+        <label for='name'>Username</label>
+        <input type='text' id='name' name='name' placeholder='Username'>
+        <label for='password'>Password</label>
+        <input type='password' id='password' name='name' placeholder='password'>
+        <label for='passwordRepeat'>Repeat Password</label>
+        <input type='password' id='passwordRepeat' name='name' placeholder='password'>
+        <input type ='submit'>
+    </form>
+</div>
 </div>
 
 {% endblock content %}
